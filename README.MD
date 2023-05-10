@@ -46,6 +46,9 @@ Envía el correo electrónico utilizando el método sendMail del objeto transpor
 });
 `
 
+
+Opcional instalar `npm install dotenv` para el segundo ejemplo
+
 ### Ultimo paso:
 
 Correr proyecto con el comando:
