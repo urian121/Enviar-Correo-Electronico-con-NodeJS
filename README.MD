@@ -1,14 +1,16 @@
 # Enviar Correo Electronico con NodeJS
 
-- ** PASO 1:** Iniciar un proyecto en NodeJS con el comando
-  `npm init -y`
-  Esto crear un archivo package.json con el fin de llevar un control de todos mis paquetes (Modulos) instalados en el proyecto.
+**- PASO 1:**
+Iniciar un proyecto en NodeJS con el comando
+`npm init -y`
+Esto crear un archivo package.json con el fin de llevar un control de todos mis paquetes (Modulos) instalados en el proyecto.
 
-- ** PASO 2: ** Instalar nodemailer, Nodemailer es un módulo (Biblioteca) que nos permitirá añadir estas funcionalidades en nuestro servidor Node.js.
+**- PASO 2:**
+Instalar nodemailer, Nodemailer es un módulo (Biblioteca) que nos permitirá añadir estas funcionalidades en nuestro servidor Node.js.
 
-- ** PASOS 3:**
-  Instalar la biblioteca `nodemailer` utilizando npm (Gestor de paquetes de Node). Puedes hacerlo ejecutando el siguiente comando en tu terminal:
-  `npm install nodemailer`
+**- PASO 3:**
+Instalar la biblioteca `nodemailer` utilizando npm (Gestor de paquetes de Node). Puedes hacerlo ejecutando el siguiente comando en tu terminal:
+`npm install nodemailer`
 
 **- PASO 4:**
 Importar la biblioteca `nodemailer` en tu archivo de Node.js:
