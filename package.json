@@ -1,0 +1,15 @@
+{
+  "name": "enviar-correo-electronico-con-nodejs",
+  "version": "1.0.0",
+  "description": "link 1:\r https://myaccount.google.com/intro/security?rapt=AEjHL4Mg7Yozwacsn4k2OjASz8SdgTuqoRUSb39d2NgLpt_RLzhlqgkB0-v7bqJKb0Qqk6LcZOPMTYGHzs7aTEapknDDI0ZJwg",
+  "main": "api_msj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.1"
+  }
+}
