@@ -47,26 +47,9 @@ Envía el correo electrónico utilizando el método sendMail del objeto transpor
 `
 
 
-###IMPORTANTE:
-######Para enviar HTML en Node.js a través de un correo electrónico, debes cambiar la propiedad text de mailOptions a html.
-`const mailOptions = {
-  from: "programadorphp2017@gmail.com",
-  to: "iamdeveloper86@gmail.com",
-  subject: "Prueba de correo electrónico con Node.js",
-  html: "<h1>¡Hola Comunidad WebDeveloper!</h1>
-  <p style="color:crimson;"> 
-    Este correo electrónico es una prueba enviada utilizando Node.js.
-  </p>
-  <p>
-    Estamos emocionados de tenerte aquí y esperamos que disfrutes de nuestro contenido.
-    Si aún no te has suscrito, te invito cordialmente a hacerlo para que puedas
-    estar al tanto de todas nuestras actualizaciones y novedades.
-  </p>
-  <br>
-  <h3>¡Gracias por unirte a nosotros!</h3>
-  ",
-};
-`
+**- IMPORTANTE**
+Para enviar HTML en Node.js a través de un correo electrónico, debes cambiar la propiedad text de mailOptions a html.
+
 
 ### Ultimo paso:
 
