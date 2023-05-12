@@ -6,17 +6,15 @@ Iniciar un proyecto en NodeJS con el comando
 Esto crear un archivo package.json con el fin de llevar un control de todos mis paquetes (Modulos) instalados en el proyecto.
 
 **- PASO 2:**
-Instalar nodemailer, Nodemailer es un módulo (Biblioteca) que nos permitirá añadir estas funcionalidades en nuestro servidor Node.js.
-
-**- PASO 3:**
 Instalar la biblioteca `nodemailer` utilizando npm (Gestor de paquetes de Node). Puedes hacerlo ejecutando el siguiente comando en tu terminal:
 `npm install nodemailer`
+Nodemailer es un módulo (Biblioteca) que nos permitirá añadir estas funcionalidades en nuestro servidor Node.js.
 
-**- PASO 4:**
+**- PASO 3:**
 Importar la biblioteca `nodemailer` en tu archivo de Node.js:
 `const nodemailer = require('nodemailer');`
 
-**- PASO 5:**
+**- PASO 4:**
 Configurar el servicio de correo electrónico que deseas utilizar.
 `const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -26,7 +24,7 @@ Configurar el servicio de correo electrónico que deseas utilizar.
   }
 });`
 
-**- PASO 6:**
+**- PASO 5:**
 Definer el contenido del correo electrónico que deseas enviar
 `const mailOptions = {
 from: 'tu_correo_electronico@gmail.com',
@@ -35,7 +33,7 @@ subject: 'Prueba de correo electrónico con Node.js',
 text: 'Hola, esto es una prueba de correo electrónico enviado con Node.js.'
 };`
 
-**- PASO 7:**
+**- PASO 6:**
 Envía el correo electrónico utilizando el método sendMail del objeto transporter
 `transporter.sendMail(mailOptions, function(error, info){
   if (error) {
