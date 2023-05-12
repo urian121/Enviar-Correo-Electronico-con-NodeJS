@@ -1,4 +1,4 @@
-//Importa la biblioteca nodemailer en tu archivo
+//Importando la biblioteca nodemailer en tu archivo
 const nodemailer = require("nodemailer");
 
 // Configuración del servicio de correo electrónico
@@ -9,17 +9,17 @@ const transporter = nodemailer.createTransport({
    */
   service: "gmail",
   auth: {
-    user: "programadorphp2017@gmail.com",
-    pass: "",
+    user: "urianwebdeveloper@gmail.com",
+    pass: "tcgsaaiuilyreuzc",
   },
 });
 
-// Definir el contenido del correo electrónico que deseas enviar
+// Definir el contenido del cuepro para el correo electrónico que deseas enviar
 const mailOptions = {
   from: "programadorphp2017@gmail.com",
-  to: "urian1213viera@gmail.com",
+  to: "iamdeveloper86@gmail.com",
   subject: "Prueba de correo electrónico con Node.js",
-  text: "Hola, esto es una prueba de correo electrónico enviado con Node.js.",
+  text: "¡Hola Comunidad WebDeveloper!",
 };
 
 // Envía el correo electrónico utilizando el método sendMail del objeto transporter
