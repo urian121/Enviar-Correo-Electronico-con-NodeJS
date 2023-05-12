@@ -25,7 +25,7 @@ Configurar el servicio de correo electrónico que deseas utilizar.
 });`
 
 **- PASO 5:**
-Definer el contenido del correo electrónico que deseas enviar
+Definir el contenido del cuerpo para el correo electrónico que deseas enviar
 `const mailOptions = {
 from: 'tu_correo_electronico@gmail.com',
 to: 'destinatario@ejemplo.com',
